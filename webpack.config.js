@@ -7,7 +7,7 @@ module.exports = {
 		poll: 1000,
 		ignored: ["node_modules"]
 	},
-	devtool: "inline-source-map",
+	devtool: "source-map",
 	module: {
 		rules: [
 			{
