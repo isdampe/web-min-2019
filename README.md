@@ -1,8 +1,7 @@
 ## Getting started
 
 ```bash
-npm install
-npm run setup-hooks
+npm run setup
 ```
 
 ## Commands

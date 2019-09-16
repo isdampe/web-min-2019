@@ -20,6 +20,7 @@
 		"@types/jquery": "^3.3.31"
 	},
 	"scripts": {
+		"setup": "npm install && npm run setup-hooks",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack --mode production --progress",
 		"watch": "webpack --watch --progress",
