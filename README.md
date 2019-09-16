@@ -2,6 +2,7 @@
 
 ```bash
 npm install
+npm run setup-hooks
 ```
 
 ## Commands
@@ -13,3 +14,6 @@ npm install
 `npm run check-format` - Checks the format of TypeScript files.
 
 `npm run format` - Fixes the format of TypeScript files.
+
+`npm run create-component` - Adds a new component (style and ?ts)
+
