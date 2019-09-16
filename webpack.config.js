@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	entry: ['./assets/ts/app.ts', './assets/scss/app.scss'],
+	entry: ['./assets/ts/App.ts', './assets/scss/app.scss'],
 	watchOptions: {
 		aggregateTimeout: 1000,
 		poll: 1000,
