@@ -3,6 +3,8 @@
 	"tabWidth": 4,
 	"useTabs": true,
 	"semi": true,
-	"singleQuote": false ,
-	"quoteProps": "consistent"
+	"singleQuote": false,
+	"quoteProps": "consistent",
+	"bracketSpacing": false,
+	"arrowParens": "always"
 }
