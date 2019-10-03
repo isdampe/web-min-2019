@@ -27,7 +27,7 @@
 		"check-format": "prettier --check \"assets/ts/**/*.ts\"",
 		"format": "prettier --write \"assets/ts/**/*.ts\"",
 		"create-component": "node ./.scripts/proc.js component",
-		"setup-hooks": "cp ./.scripts/pre-commit .git/hooks/pre-commit"
+		"setup-hooks": "cp .scripts/pre-commit .git/hooks/pre-commit"
 	},
 	"keywords": [],
 	"author": "isdampe",
