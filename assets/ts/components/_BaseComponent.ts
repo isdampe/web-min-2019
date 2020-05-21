@@ -13,7 +13,8 @@ class Component {
 	}
 
 	public debounce(fn: Function, wait: number, immediate: boolean) {
-		let timeout: number;
+		let timeout: any;
+
 		return function() {
 			let context = this,
 				args = arguments;
@@ -29,8 +30,9 @@ class Component {
 	}
 
 	public throttle(fn: Function, limit: number) {
-		let lastFunc: number;
-		let lastRan: number;
+		let lastFunc: any;
+		let lastRan: any;
+
 		return function() {
 			const context = this;
 			const args = arguments;
